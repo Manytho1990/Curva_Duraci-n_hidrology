@@ -1,0 +1,26 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales de Excel
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# Datos de entrada (no se distribuyen series hidrologicas por defecto)
+*.xlsx
+*.xls
+*.xlsm
+!ejemplo*.xlsx
+
+# Sistema operativo / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
